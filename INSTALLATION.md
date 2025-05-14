@@ -111,9 +111,37 @@ sudo update
 Nos pedira una contraseña, ponemos como contraseña **usuario**
 ![image](https://github.com/user-attachments/assets/aaf6645c-1e0f-4594-9aee-dd7dcb19d5fc)
 
+## Mensajes Durante la Actualización
+
+Cuando ejecutes los comandos de actualización, verás que en la terminal se empiezan a **mostrar muchos mensajes y comandos automáticos**.
+
+No te preocupes, esto es **normal**. El sistema está descargando e instalando las actualizaciones necesarias. Solo espera a que el proceso termine.
+
+![image](https://github.com/user-attachments/assets/20bc492c-7614-4e8f-8c8a-71a256e1e2fa)
+
+### 3. Ejecutar la actualización completa
+
+Después de actualizar los repositorios, ahora ejecutamos el siguiente comando para aplicar las actualizaciones:
+
+![image](https://github.com/user-attachments/assets/50baad50-5fe5-4b6d-ba25-01516a8d01d8)
+
 ```console
-sudo upgrate
+sudo apt upgrade
 ```
+
+Cuando nos salga **[S/n]** le damos al enter
+![image](https://github.com/user-attachments/assets/a1e620ac-caaa-4898-a239-17b6c507d631)
+
+Ahora esperamos a que se instale.
+
+![image](https://github.com/user-attachments/assets/46783a8b-33c2-4dd3-a699-be7504ee20de)
+
+Ya estaría
+
+
+
+
+
 
 
 
