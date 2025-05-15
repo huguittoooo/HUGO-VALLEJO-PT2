@@ -265,6 +265,66 @@ Ahora que todo está preparado, vamos a comprobar si ownCloud funciona correctam
 
 1. Abre tu **navegador web**.
 2. Escribe la siguiente dirección en la barra de búsqueda: **Localhost** y nos daremos cuenta que debemos instalar nuevas versiones para que podamos acceder al enlace.
+3. Ahora instalaremos las versiones que nos piden para poder acceder a nuestro **localhost**
+
+## Instalar PHP 7.4 en Ubuntu 24.04
+
+ownCloud necesita la versión **7.4 de PHP**, pero Ubuntu 24.04 viene con versiones más nuevas, así que debemos instalar manualmente la versión correcta.
+
+### 1. Actualizar el sistema
+
+Primero actualizamos los repositorios y paquetes:
+
+![image](https://github.com/user-attachments/assets/fcb75d1e-a123-474e-8aaf-611a140a0a05)
+
+```bash
+sudo apt install software-properties-common -y
+```
+
+![image](https://github.com/user-attachments/assets/38a00972-bb0b-42a4-98e8-c44a1196f3cb)
+
+
+Ahora instalamos las herramientas necesarias para poder añadir repositorios PPA, que son los que usaremos para instalar PHP 7.4:
+
+![image](https://github.com/user-attachments/assets/dbd5df95-2cd8-417b-8e6b-ba3e3dc91284)
+
+
+```bash
+LC_ALL=C.UTF-8 sudo add-apt-repository ppa:ondrej/php -y
+```
+
+Ahora vamos a actualizar los repositorios del sistema
+
+![image](https://github.com/user-attachments/assets/cc9ca8f5-f722-4745-a117-c73ab7bb92da)
+
+Después instalaremos las librerias PHP 7.4
+
+![image](https://github.com/user-attachments/assets/2bb9dac0-4915-413d-9148-3033f2542428)
+
+![image](https://github.com/user-attachments/assets/f5313059-49f4-475b-8ff4-b8ad02fe2449)
+
+![image](https://github.com/user-attachments/assets/fec7d24f-71bf-436a-94dd-0e8cce0e1994)
+
+Ahora tenemos que seleccionar la version de apache2
+
+![image](https://github.com/user-attachments/assets/6bc0533c-b270-407b-a627-2d8608496559)
+
+![image](https://github.com/user-attachments/assets/3bf2078a-3eaf-40c1-99e4-eea2cb7b2071)
+
+![image](https://github.com/user-attachments/assets/e6f9c4f6-21b0-47cb-914d-f657813f62d7)
+
+Ahora activamos los modulos de apache2 necesarios:
+
+![image](https://github.com/user-attachments/assets/6b1e33ab-e77a-414c-a731-aad0714a0c9d)
+
+![image](https://github.com/user-attachments/assets/8534c60c-230f-459e-89d6-7a2a3f000137)
+
+Por ultimo, reiniciamos el apache2:
+
+![image](https://github.com/user-attachments/assets/f2a60438-98c2-4145-a49c-e55b775b9700)
+
+
+
 
 
 
