@@ -249,6 +249,15 @@ Una vez que hemos descomprimido y movido los archivos de ownCloud al directorio 
 
 ![image](https://github.com/user-attachments/assets/4e94775f-614a-44d8-9919-f1d32c31b071)
 
+## Acceder desde el navegador
+
+Ahora que todo está preparado, vamos a comprobar si ownCloud funciona correctamente.
+
+1. Abre tu **navegador web**.
+2. Escribe la siguiente dirección en la barra de búsqueda:
+
+
+
 
 
 
