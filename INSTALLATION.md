@@ -20,9 +20,11 @@ Antes de empezar la instalación, es importante configurar la máquina virtual c
 
 - **vCPUs:** 8
 - **Memoria RAM:** 32 GB
+- 
 ![image](https://github.com/user-attachments/assets/bc2456b9-04cb-4cb8-8669-555501b861fc)
 
 Nos quedará así:
+
 ![image](https://github.com/user-attachments/assets/74a5c62d-c189-492b-ac09-df7db0d3624d)
 
 
@@ -30,6 +32,7 @@ Nos quedará así:
 Esta configuración asegura que ownCloud funcione de forma fluida y sin problemas de rendimiento.
 
 Bajamos abajo una vez hecho los pasos anteriores y le damos a **Enviar**
+
 ![image](https://github.com/user-attachments/assets/c884cbb8-1e67-43f1-a27c-ea81b5a6b2f9)
 
 ## Inicio de la Máquina Virtual
@@ -108,7 +111,9 @@ Ejecuta los siguientes comandos en la terminal para actualizar los repositorios 
 sudo update
 ```
 ![image](https://github.com/user-attachments/assets/870ecd46-9789-4c67-a8d9-6902d6b80236)
+
 Nos pedira una contraseña, ponemos como contraseña **usuario**
+
 ![image](https://github.com/user-attachments/assets/aaf6645c-1e0f-4594-9aee-dd7dcb19d5fc)
 
 ## Mensajes Durante la Actualización
@@ -130,6 +135,7 @@ sudo apt upgrade
 ```
 
 Cuando nos salga **[S/n]** le damos al enter
+
 ![image](https://github.com/user-attachments/assets/a1e620ac-caaa-4898-a239-17b6c507d631)
 
 Ahora esperamos a que se instale.
@@ -143,6 +149,7 @@ Ahora instalamos el servidor web
 ![image](https://github.com/user-attachments/assets/b73181c0-012b-4114-83de-c214b72a1f28)
 
 Ahora hacemos la instalacion del servidor de la base de datos mysql-server
+
 ![image](https://github.com/user-attachments/assets/a5434061-0930-4a82-8b21-ecc9b1808015)
 
 Ahora hacemos la instalación de algunas librerías de PHP, que es el lenguaje principal que utilizan las aplicaciones
@@ -166,6 +173,7 @@ Una vez instalado MySQL, vamos a acceder a su consola para crear la base de dato
 ### 2. Crear la base de datos para ownCloud
 
 Una vez dentro de la consola de MySQL, ejecuta los siguientes comandos uno por uno:
+
 ![image](https://github.com/user-attachments/assets/141ab9db-93fc-41a3-a6c6-f30cd35e406d)
 
 El siguiente comando que tienes que poner es:
@@ -233,6 +241,7 @@ Si nos sale ese apartado azul, ya hemos entrado al directorio.
 Después de descomprimir el archivo ZIP, vamos a mover la carpeta de ownCloud al directorio donde Apache busca las páginas web.
 
 En el siguiente paso, debemos vigilar y mirar como se llama nuestra ruta, en vez de poner **app-web** tenemos que cambiarlo y poner **owncloud** como se ve en la imagen.
+
 ![image](https://github.com/user-attachments/assets/7e79f024-8744-4b62-a474-f0a8ebdf3c1a)
 
 Para continuar eliminamos la carpeta original después de descomprimir.
