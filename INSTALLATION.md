@@ -321,7 +321,61 @@ Ahora activamos los modulos de apache2 necesarios:
 
 Por ultimo, reiniciamos el apache2:
 
-![image](https://github.com/user-attachments/assets/f2a60438-98c2-4145-a49c-e55b775b9700)
+![image](https://github.com/user-attachments/assets/873b6fdd-f62a-4e1d-bf79-e3b5b32894cf)
+
+## Comprobar conexión en localhost
+
+Para verificar que la configuración y la instalación funcionan correctamente:
+
+1. Abre el navegador web.
+2. En la barra de búsqueda, escribe: **localhost**
+
+Nos deberia de salir esto:
+
+![image](https://github.com/user-attachments/assets/e19bf749-3b93-40ee-ac9b-4830ea7b6d90)
+
+## Datos para la configuración inicial
+
+Al llegar a la pantalla de configuración de ownCloud en el navegador, usa estos datos si no has cambiado nada:
+
+- **Usuario:** usuario  
+- **Contraseña:** password  
+- **Base de datos:** bbdd  
+- **Dominio:** localhost  
+
+Con estos datos podrás completar la configuración y dejar ownCloud listo para usar.
+
+![image](https://github.com/user-attachments/assets/a3410aba-f330-470d-8cf7-0386b627a6eb)
+
+![image](https://github.com/user-attachments/assets/717394a7-acaa-4cae-bd5a-42f074bdd3d9)
+
+Cuando acabemos, bajamos abajo y le damos a **finish setup**
+
+![image](https://github.com/user-attachments/assets/54c7dae1-a4b2-4aa6-9dc7-867cda6433d9)
+
+
+Se nos despliega otra ventana de inicio de sesion:
+
+![image](https://github.com/user-attachments/assets/1364e690-b0f2-4872-adf7-233396307745)
+
+Ahora solo falta poner el usuario y la contraseña:
+
+![image](https://github.com/user-attachments/assets/072c316b-735a-4b20-bcd2-92f2ec27ec50)
+
+Para acabar, le damos a **Login** y se l¡nos despliega el siguiente menu que ya estariamos dentro de owncloud, y listos para iniciar la configuracion.
+
+![image](https://github.com/user-attachments/assets/9fa2ab72-e688-4e6c-98ce-9e4db7e5a07b)
+
+Fin de la instalación.
+
+
+
+
+
+
+
+
+
 
 
 
