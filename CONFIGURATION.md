@@ -115,7 +115,26 @@ Pulsamos donde aparece la opción **"Añadir grupos"**.
 
 ![image](https://github.com/user-attachments/assets/dca37cc0-9bbf-4fd4-9e20-4d9dbcc93004)
 
+Ahora ponemos el nombre del grupo que queramos, en mi caso los grupos que crearé yo tendran los nombres de **visualizador** y **editor**, como admin también forma parte de un nombre de grupo, un usuario tendrá el grupo llamado **admin**.
+
 ![image](https://github.com/user-attachments/assets/223d508c-5045-483d-85fd-90100619d308)
+
+Ahora los creamos y podemos verlos:
+
+![image](https://github.com/user-attachments/assets/cc65ee95-2029-4b9a-8c9d-fac657b49561)
+
+ahora asignamos un nombre de grupo para a cada uno de los usuarios.
+
+![image](https://github.com/user-attachments/assets/72f8ccad-3705-4b3e-ab61-90484364c938)
+
+Los debemos substituir por estos:
+
+![image](https://github.com/user-attachments/assets/d09d518e-c0fd-49ca-b581-3d45e7b4b836)
+
+![image](https://github.com/user-attachments/assets/690ac1ee-4626-4457-b3c9-9ae8892c3615)
+
+
+
 
 
 
