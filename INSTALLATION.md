@@ -139,6 +139,125 @@ Ahora esperamos a que se instale.
 Ya estaría
 
 
+Ahora instalamos el servidor web
+![image](https://github.com/user-attachments/assets/b73181c0-012b-4114-83de-c214b72a1f28)
+
+Ahora hacemos la instalacion del servidor de la base de datos mysql-server
+![image](https://github.com/user-attachments/assets/a5434061-0930-4a82-8b21-ecc9b1808015)
+
+Ahora hacemos la instalación de algunas librerías de PHP, que es el lenguaje principal que utilizan las aplicaciones
+
+![image](https://github.com/user-attachments/assets/b6a10ccd-068c-459d-b140-ebb5926c0614)
+![image](https://github.com/user-attachments/assets/fe8bac58-6397-46f7-92fc-2305e15aa036)
+
+
+Ahora reiniciamos el servidor apache2.
+
+![image](https://github.com/user-attachments/assets/82e75e40-389b-4fea-b4b1-a679b2e6b4bd)
+
+## Configuración de MySQL
+
+Una vez instalado MySQL, vamos a acceder a su consola para crear la base de datos que ownCloud usará.
+
+### 1. Acceder a la consola de MySQL
+
+![image](https://github.com/user-attachments/assets/a4d5ef16-c22d-4be9-89bd-e9b9ecd5ea3b)
+
+### 2. Crear la base de datos para ownCloud
+
+Una vez dentro de la consola de MySQL, ejecuta los siguientes comandos uno por uno:
+![image](https://github.com/user-attachments/assets/141ab9db-93fc-41a3-a6c6-f30cd35e406d)
+
+El siguiente comando que tienes que poner es:
+```console
+CREATE USER 'usuario'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+```
+Y despues teneis que poner:
+```console
+GRANT ALL ON bbdd.* to 'usuario'@'localhost';
+```
+En mi caso ya lo habia hecho y me da error porque ya los habia creado.
+
+Cuando estemos saldremos al apartado de **mysql** para escribir **exit**
+
+![image](https://github.com/user-attachments/assets/1840d644-6eb5-41ea-8cc6-1abe376f06f0)
+
+## Descarga y extracción de los archivos de la aplicación web
+
+Primero de todo nos tenemos que descargar el archivo zip para poder hacer todos los procedimientos que veremos a continuacion.
+
+https://download.owncloud.com/server/stable/owncloud-complete-20240724.zip 
+
+![image](https://github.com/user-attachments/assets/ea2cf8eb-1cb3-499d-9202-a14925784dcc)
+
+
+Ahora vamos a colocar los archivos de ownCloud en el directorio correcto para que funcionen con Apache.
+
+1. Nos movemos a la carpeta donde se aloja la descarga del zip, en mi caso es en Documentos:
+![image](https://github.com/user-attachments/assets/dd3f7224-cf6f-4351-a1ea-a6055880e105)
+
+Ahora cambiamos el nombre al que queramos para que nos sea mas facil de identificar y escribirlo despues en la terminal.
+![image](https://github.com/user-attachments/assets/85a5fb8f-9cf3-44ba-b6fb-72725068eb28)
+
+Borramos el nombre que tiene actualmente y lo substituimos por el que queramos, en mi caso lo llamaré **app-web**
+![image](https://github.com/user-attachments/assets/2f07c4c6-6056-4838-8a58-0991273294ba)
+
+![image](https://github.com/user-attachments/assets/57a258e4-578b-4d16-9194-cd2a68bf213c)
+
+Ya estaría
+
+Ahora nos vamos a la terminal y ponemos lo siguiente:
+![image](https://github.com/user-attachments/assets/fcb9c019-76b7-4a5d-a653-27e0ef7ac3d6)
+
+Teneis que vigilar, porque yo le he puesto de nombre a mi zip **app-web**, pero ahi debeis poner cada uno el nombre que le hayais puesto. También cuidado porque hay gente que tiene el idioma del linux en catalan, pues en **Descargas** teneis que poner **Baixades**.
+
+Después entramos a nuestro directorio `/var/www/html`
+```console
+cd /var/www/html
+```
+![image](https://github.com/user-attachments/assets/7613452d-90c5-4bb8-9648-66bbadac5224)
+
+![image](https://github.com/user-attachments/assets/07bc9c46-2fad-487d-b8b7-14848114d035)
+
+Ahora ponemos el siguiente comando para descomprimir el fichero que hemos descargado:
+![image](https://github.com/user-attachments/assets/4a7f1693-4935-468c-80b1-587d2d9231c5)
+
+Ahora ponemos esto
+
+
+
+Si nos sale ese apartado azul, ya hemos entrado al directorio.
+
+## Copiar los archivos a la carpeta de Apache
+
+Después de descomprimir el archivo ZIP, vamos a mover la carpeta de ownCloud al directorio donde Apache busca las páginas web.
+
+En el siguiente paso, debemos vigilar y mirar como se llama nuestra ruta, en vez de poner **app-web** tenemos que cambiarlo y poner **owncloud** como se ve en la imagen.
+![image](https://github.com/user-attachments/assets/7e79f024-8744-4b62-a474-f0a8ebdf3c1a)
+
+Para continuar eliminamos la carpeta original después de descomprimir.
+
+![image](https://github.com/user-attachments/assets/6482357e-2599-465b-a163-0d74b47430e3)
+
+Después eliminamos el fichero **index.html** de nuestro apache2.
+
+![image](https://github.com/user-attachments/assets/41e496d8-35ef-4bcf-8406-32a9ae4af21d)
+
+## Aplicar permisos a los archivos de ownCloud
+
+Una vez que hemos descomprimido y movido los archivos de ownCloud al directorio `/var/www/html`, es importante **asignar los permisos correctos** para que el servidor web pueda acceder sin problemas.
+
+![image](https://github.com/user-attachments/assets/4e94775f-614a-44d8-9919-f1d32c31b071)
+
+
+
+
+
+
+
+
+
+
 
 
 
