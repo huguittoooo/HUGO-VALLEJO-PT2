@@ -323,6 +323,25 @@ Se nos despliega este menu:
 ![image](https://github.com/user-attachments/assets/4a3a386f-34c3-48a8-8042-2c505a40a82d)
 
 
+Ahora añadimos nuestra ip:
+
+![image](https://github.com/user-attachments/assets/25dbff42-0bc7-4019-87f7-5bce5ca1cb6b)
+
+Para guardar debemos clicar **"Control o"** y para salir **"Control x"**
+
+## Probar el acceso desde otra máquina
+
+Una vez configurado todo correctamente, ya podemos acceder a ownCloud desde otro ordenador que esté conectado a la **misma red local**.
+
+### 1. Abrir el navegador en otro equipo
+
+- Escribe en la barra de direcciones lo siguiente:
+
+```text
+http://192.168.121.28
+
+
+
 
 
 
