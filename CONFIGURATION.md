@@ -245,7 +245,47 @@ Renombrar archivos te permite organizarlos mejor, sobre todo si quieres que apar
 
 Configurar las políticas de seguridad te permite proteger mejor tu nube y los datos de los usuarios.
 
+Entramos en **usuario** y clicamos en **Ajustes**
+
 ![image](https://github.com/user-attachments/assets/62f754b6-ed1a-404d-8148-21b80db39cf3)
+
+Clicamos en **Compartiendo**
+
+![image](https://github.com/user-attachments/assets/cfd65c0f-5916-4281-ac54-820926d0fda7)
+
+Se nos abrira este manel:
+
+![image](https://github.com/user-attachments/assets/20c36ff6-5e82-468b-a934-f9798fdf79f8)
+
+## Configuración personalizada de políticas de seguridad
+
+Dentro del apartado de **Seguridad**, podemos personalizar las políticas según nuestras necesidades.
+
+### Ajustes aplicados:
+
+- ✅ **Fecha de caducidad para las comparticiones**:  
+  Se ha activado una opción para que los enlaces compartidos por los usuarios tengan una **fecha límite** de validez. Esto ayuda a evitar que se queden accesibles para siempre.
+
+- ❌ **Desactivar la aceptación automática de nuevos compartidos**:  
+  Ahora los nuevos archivos compartidos **no se añaden automáticamente**, el usuario debe aceptarlos manualmente.
+
+- ❌ **Eliminar la restricción de usuarios que comparten con grupos**:  
+  Se ha quitado la restricción que impedía a los usuarios compartir archivos con miembros de grupos diferentes.
+
+  ![image](https://github.com/user-attachments/assets/2560d944-ac42-424c-bf15-b360c589c616)
+
+
+Estas configuraciones aumentan el control y la seguridad dentro del entorno ownCloud.
+
+
+
+
+
+
+
+
+
+
 
 
 
