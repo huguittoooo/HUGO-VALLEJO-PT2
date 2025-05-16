@@ -289,6 +289,52 @@ Si queremos acceder a ownCloud desde otro ordenador dentro de la misma red, nece
 ```bash
 ip a
 ```
+![image](https://github.com/user-attachments/assets/43ed2e41-fd5c-43e5-9f2d-7e9bacbb54b8)
+
+Ahora tenemos que ver si apache2 esta encendido.
+
+```bash
+sudo systemctl status apache2
+```
+
+![image](https://github.com/user-attachments/assets/49d7544a-1ec1-4580-9acb-5bfbaa2bbac9)
+
+Aqui podemos ver que esta abierto y activado.
+
+![image](https://github.com/user-attachments/assets/7226cc3b-7a1b-43fb-abed-53966428da7e)
+
+Ahora entramos en archivos donde esta la configuración y los dominions.
+
+```bash
+cd /var/www/html/config
+```
+![image](https://github.com/user-attachments/assets/31671d89-19ba-4895-a734-cb7005f1ff0a)
+
+Aqui vemos que hemos entrado al directorio.
+
+![image](https://github.com/user-attachments/assets/5ec1038d-43d3-4edd-b7a5-c1519d31949a)
+
+Ahora entrar a la congiguracion php.
+
+![image](https://github.com/user-attachments/assets/ce1c6987-6931-49e2-96d6-f5c8d8fb40f4)
+
+Se nos despliega este menu:
+
+![image](https://github.com/user-attachments/assets/4a3a386f-34c3-48a8-8042-2c505a40a82d)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
