@@ -134,6 +134,66 @@ Los debemos substituir por estos:
 ![image](https://github.com/user-attachments/assets/690ac1ee-4626-4457-b3c9-9ae8892c3615)
 
 
+## Dar permisos a los usuarios en ownCloud
+
+Una vez que ya tenemos creados los grupos y los usuarios asignados, ya podemos gestionar los permisos de acceso a archivos o carpetas. Para elló tenemos que crear una nueva carpeta llamada permisos.
+
+![image](https://github.com/user-attachments/assets/df3e46da-fb97-480a-ba1c-a2991bb64b49)
+
+![image](https://github.com/user-attachments/assets/94a5ab72-bdab-4c56-86e6-a5af24c12cc0)
+
+![image](https://github.com/user-attachments/assets/ad53fa42-3e02-4f8d-988d-1442c3ca2bc8)
+
+Ya la tendriamos creada.
+
+![image](https://github.com/user-attachments/assets/73010da2-2635-4853-b7de-88d5d5aa6df7)
+
+Ahora compartimos la carpeta siguiendo los siguientes pasos:
+
+![image](https://github.com/user-attachments/assets/02f4d346-7a1b-4df2-aef2-29b7b0aeb906)
+
+![image](https://github.com/user-attachments/assets/a6c71106-bdb2-4b07-b055-28043b97d9c7)
+
+Aqui escribimos **editor**
+
+![image](https://github.com/user-attachments/assets/b7f0750f-1389-453d-8faf-5c9e7314ecf7)
+
+![image](https://github.com/user-attachments/assets/b6901fbe-90a8-4f5a-ab87-490d93f93ab2)
+
+Aqui podemos ver que ya hemos creado el **editor(grupo)**
+
+![image](https://github.com/user-attachments/assets/223d3220-a7e7-4f75-bc7a-8e0b7f263211)
+
+Clicamos en la rueda de **configuración**.
+
+![image](https://github.com/user-attachments/assets/997ff526-d2f2-4cb4-9851-c62514cf4410)
+
+Se despliegará este menu
+
+![image](https://github.com/user-attachments/assets/032f96c3-2afc-4793-a3ec-ea2c1ab17831)
+
+Desactiivamos la opción de eliminar
+
+![image](https://github.com/user-attachments/assets/6796b8ab-1d7e-4839-b8d3-b79794462041)
+
+Después creamos otro con el nombre de **visualizador(grupo)**
+
+![image](https://github.com/user-attachments/assets/e148cb45-c933-4bc1-9f90-869b45cdbfc1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
