@@ -8,7 +8,7 @@ Después he descargado y configurado **ownCloud** para que funcione correctament
 A lo largo de este documento muestro paso a paso todo el proceso que he seguido para que cualquiera pueda repetirlo fácilmente.
 
 
-1. Configuración IsardVDI
+## 1. Configuración IsardVDI
 
 ![image](https://github.com/user-attachments/assets/9cd77c11-cb52-4a82-8e38-940b15d7764e)
 
