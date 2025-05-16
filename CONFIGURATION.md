@@ -176,9 +176,58 @@ Desactiivamos la opción de eliminar
 
 ![image](https://github.com/user-attachments/assets/6796b8ab-1d7e-4839-b8d3-b79794462041)
 
-Después creamos otro con el nombre de **visualizador(grupo)**
+Después creamos otro con el nombre de **visualizador(grupo)** y de damos los permisos que nosotros queramos:
 
 ![image](https://github.com/user-attachments/assets/e148cb45-c933-4bc1-9f90-869b45cdbfc1)
+
+En mi caso, he desactivado todos porque es un visualizador y me interesa que solo pueda ver y no editar nada ni modificar nada.
+
+![image](https://github.com/user-attachments/assets/53e32bf6-afc9-4f8e-a805-69f5e1f387c5)
+
+Cerramos ventana y seguimos configurando
+
+![image](https://github.com/user-attachments/assets/22fb5bda-8458-4eb5-963b-22d898374662)
+
+Ahora la carpeta **permisos** la arrastramos y la ponemos dentro de nuestra carpeta de **pureba**
+
+![image](https://github.com/user-attachments/assets/17aa5381-9250-4382-8040-0b335ff9b207)
+
+Accedemos a nuestra carpeta de **prueba** pra comprobar que esta dentro la carpeta **permisos**
+
+![image](https://github.com/user-attachments/assets/5131ea4f-4d19-4e07-9fc7-8580298d693f)
+
+Aqui ya vemos que se esta dentro y esta correctamente todo:
+
+![image](https://github.com/user-attachments/assets/fc39fdb1-cd98-4f38-938e-f1af5a114860)
+
+## Marcar archivos como favoritos en ownCloud
+
+Marcar un archivo como favorito te permite acceder a él rápidamente desde la sección de favoritos.
+
+Para marcar en favoritos debemos darle a la estrella que te sale:
+
+![image](https://github.com/user-attachments/assets/27ef39aa-82d7-4065-b8d0-892c2a5b3679)
+
+En mi caso como esa carpeta no me interesa tenerla en favoritos, voy a seleccionar otra que si quiera.
+
+![image](https://github.com/user-attachments/assets/d601e2ef-4205-4e9e-a68f-550cc0193784)
+
+Esto nos indica que ya la tenemos en favoritos, ahora vamos a ver las carpetas que hemos añadido a favoritos.
+
+![image](https://github.com/user-attachments/assets/8d5c765b-7719-475f-b343-3073bdbb300d)
+
+Aqui la tendriamos:
+
+![image](https://github.com/user-attachments/assets/ebc4450b-2981-42cf-a7ae-dc3cfaed76f1)
+
+
+
+
+
+
+
+
+
 
 
 
