@@ -1,3 +1,15 @@
+# INSTALACIÓN DE OWNCLOUD
+
+En este manual explico cómo he instalado **ownCloud** en una máquina virtual usando **IsardVDI**. 
+
+Primero he preparado el sistema operativo **Ubuntu**, luego he instalado los programas necesarios como **Apache2**, **MySQL** y **PHP**.  
+Después he descargado y configurado **ownCloud** para que funcione correctamente desde el navegador web.
+
+A lo largo de este documento muestro paso a paso todo el proceso que he seguido para que cualquiera pueda repetirlo fácilmente.
+
+
+1. Configuración IsardVDI
+
 ![image](https://github.com/user-attachments/assets/9cd77c11-cb52-4a82-8e38-940b15d7764e)
 
 ![image](https://github.com/user-attachments/assets/65605b02-8697-40d7-bccb-8f3052c8df3a)
