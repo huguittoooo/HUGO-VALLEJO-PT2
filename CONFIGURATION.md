@@ -220,6 +220,37 @@ Aqui la tendriamos:
 
 ![image](https://github.com/user-attachments/assets/ebc4450b-2981-42cf-a7ae-dc3cfaed76f1)
 
+## Cambiar el nombre de archivos para ordenarlos alfabéticamente
+
+Renombrar archivos te permite organizarlos mejor, sobre todo si quieres que aparezcan en orden alfabético.
+
+### 1. Ir a tus archivos
+
+### 2. Cambiar el nombre
+
+- Coloca el ratón sobre el archivo que quieras renombrar.
+- Haz clic en los **tres puntos** (···) o en el icono de opciones.
+
+![image](https://github.com/user-attachments/assets/a1b24962-c3d7-4087-b1e8-01f051f357de)
+
+- Selecciona **"Cambiar nombre"**.
+
+![image](https://github.com/user-attachments/assets/31ecd59a-4e0d-4284-b383-7849bf612499)
+
+ - Escribe el nuevo nombre del archivo, por ejemplo: **Prueba1**
+
+![image](https://github.com/user-attachments/assets/8727414f-d14d-4e0a-9e7f-e9804b14aa8b)
+
+## Políticas de seguridad en ownCloud
+
+Configurar las políticas de seguridad te permite proteger mejor tu nube y los datos de los usuarios.
+
+![image](https://github.com/user-attachments/assets/62f754b6-ed1a-404d-8148-21b80db39cf3)
+
+
+
+   
+  
 
 
 
