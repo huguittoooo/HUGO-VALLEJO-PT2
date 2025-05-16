@@ -278,6 +278,17 @@ Dentro del apartado de **Seguridad**, podemos personalizar las políticas según
 Estas configuraciones aumentan el control y la seguridad dentro del entorno ownCloud.
 
 
+## Configurar el acceso a ownCloud desde otra máquina
+
+Si queremos acceder a ownCloud desde otro ordenador dentro de la misma red, necesitamos conocer la IP local de nuestra máquina.
+
+### 1. Obtener la IP local
+
+- Abrimos la **Terminal** y escribimos el siguiente comando:
+
+```bash
+ip a
+```
 
 
 
