@@ -6,8 +6,11 @@ A continuación, tenéis dos manuales:
 
 1. **Manual de instalación de ownCloud**  
    Explica paso a paso cómo preparar el sistema, instalar Apache2, MySQL, PHP y descargar ownCloud para dejarlo funcionando.
+   - [Manual de Instalación](INSTALLATION.md) 
 
 2. **Manual de configuración de ownCloud**  
    Aquí detallo cómo configurar ownCloud desde el navegador: crear usuarios, asignar permisos, compartir archivos, cambiar nombres, establecer políticas de seguridad y acceder desde otra máquina.
+   - [Manual de Configuración](CONFIGURATION.md)
+
 
 Todo está explicado de forma clara para que se pueda seguir fácilmente.
