@@ -277,6 +277,44 @@ Dentro del apartado de **Seguridad**, podemos personalizar las políticas según
 
 Estas configuraciones aumentan el control y la seguridad dentro del entorno ownCloud.
 
+## Preparar el cierre de la máquina virtual
+
+Ahora debemos cerrar nuestra maquina virtual para poder seguir con el manual porque si queremos acceder a ownCloud desde otro ordenador dentro de la misma red, necesitamos conocer la IP local de nuestra máquina primero tenemos que hacer unas cosas antes para que funcione.
+
+![image](https://github.com/user-attachments/assets/b0a0e46f-6926-4f86-98e9-80b834bf0073)
+
+![image](https://github.com/user-attachments/assets/1ec1d273-9171-4126-a09f-785788db1f25)
+
+![image](https://github.com/user-attachments/assets/fbb79602-804a-4356-82fc-fc3a1e81597e)
+
+Ya la tendriamos cerrada.
+
+El siguiente paso s hacere click a los tres puntitos y darle a editar:
+
+![image](https://github.com/user-attachments/assets/8ca0d019-b57d-42f5-b690-439aa7dd230f)
+
+![image](https://github.com/user-attachments/assets/9778a472-2eab-4524-a3ee-b0617a3db954)
+
+Ahora entraremos aqui:
+
+![image](https://github.com/user-attachments/assets/f28d6805-7244-472d-9a08-adcc5852db66)
+
+Y en Xarxes escribimos puigcastellar1 (la captura se ve borrosa pero es mia, simplemente he echo captura desde la maquina local con la captura de pantalla y despues desde el programa flameshot le he echo una captura a la captura de pantalla para que se pueda mostrar como selecciono la opción de puigcastellar1):
+
+![image](https://github.com/user-attachments/assets/ac6630eb-76a6-4838-a982-3959e013bc5f)
+
+Aqui ya podemos comprobar que lo hemos añadido correctamente:
+
+![image](https://github.com/user-attachments/assets/b1554ede-44f2-449b-a8fa-0fdf5fb437a4)
+
+Una vez hecho todo esto, lo enviamos:
+
+![image](https://github.com/user-attachments/assets/c03c4fa8-8a85-4618-a5e5-f89036c06a39)
+
+### Abrimos nuestra maquina
+
+![image](https://github.com/user-attachments/assets/2e22f92e-10e0-4f2d-b622-f255a61d069d)
+
 
 ## Configurar el acceso a ownCloud desde otra máquina
 
