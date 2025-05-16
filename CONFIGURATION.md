@@ -377,6 +377,7 @@ Una vez configurado todo correctamente, ya podemos acceder a ownCloud desde otro
 
 ```text
 http://192.168.121.28
+```
 
 
 
