@@ -14,3 +14,40 @@ A continuación, tenéis dos manuales:
 
 
 Todo está explicado de forma clara para que se pueda seguir fácilmente.
+
+## Descripción del proyecto
+
+En este proyecto he instalado **ownCloud**, que es como una nube privada que tú mismo puedes montar para guardar tus datos.
+
+ownCloud te permite **almacenar archivos en internet** en lugar de tenerlos solo en tu ordenador, así puedes acceder a ellos desde **cualquier lugar y en cualquier momento**.
+
+También puedes:
+
+- Compartir archivos con otros usuarios.
+- Crear carpetas personalizadas.
+- Dar permisos distintos (solo ver, editar, etc.).
+- Controlar todo tú mismo, ya que tú eres el administrador del sistema.
+
+Este proyecto sirve para aprender a montar tu propia nube y gestionar un servicio web desde cero.
+
+## Problemas encontrados
+
+Durante la instalación, después de descomprimir el fichero de ownCloud, me encontré con un problema:
+
+- **Error al copiar el directorio**:  
+  Pensaba que el nombre de la carpeta descomprimida era igual al del archivo `.zip`, pero no era así.  
+  Al intentar copiarla al directorio `/var/www/html`, me aparecía un error porque el nombre del directorio no coincidía.
+
+### Solución:
+Tuve que substituir esto:
+
+```bash
+sudo cp -R app-web.zip/. /var/www/html
+```
+
+Por el comando correcto que es este:
+
+```bash
+sudo cp -R owncloud.zip/. /var/www/html
+```
+
